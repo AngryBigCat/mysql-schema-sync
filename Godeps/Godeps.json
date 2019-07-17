@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/hidu/mysql-schema-sync",
+	"ImportPath": "github.com/AngryBigCat/mysql-schema-sync",
 	"GoVersion": "go1.7",
 	"GodepVersion": "v74",
 	"Deps": [
