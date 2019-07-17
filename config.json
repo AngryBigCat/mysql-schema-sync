@@ -1,6 +1,6 @@
 {
-     "source":"test:test@(127.0.0.1:3306)/test",
-     "dest":"test:test@(127.0.0.1:3306)/test_1",
+    "source":"test:test@(127.0.0.1:3306)/source",
+    "dest":"dest:dest@(127.0.0.1:3306)/dest",
      "alter_ignore":{
         "tb1*":{
             "column":["aaa","a*"],
@@ -8,9 +8,7 @@
             "foreign":[]
         }
      },
-     //  tables: table to check schema,default is all.eg :["order_*","goods"]
      "tables":[],
-     //  tables_ignore: table to ignore check schema,default is Null :["order_*","goods"]
      "tables_ignore":[],
      "email":{
           "send_mail":false,
